@@ -1,5 +1,5 @@
 public class BreakingTheLaw {
-    class MyException extends Exception {
+    public static class MyException extends Exception {
         // Constructor
         public MyException() {
             super();
