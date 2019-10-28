@@ -23,7 +23,7 @@ getProperty("bgColor"));
             PrintOutProperties(fileStream);
         } catch (FileNotFoundException fnfe) {
             System.out.println("WARNING: could not find the properties file");
-        } catch (IOException ioe) {312 | Sockets, Files, and Streams
+        } catch (IOException ioe) {
             System.out.println("WARNING: problem processing the properties file");
         } finally {
             if (fileStream != null) {
